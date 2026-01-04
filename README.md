@@ -61,30 +61,6 @@ npm install
 # Start development server
 npm start
 The frontend will open at http://localhost:3000
-📁 Project Structure
-pipeline-builder/
-├── frontend/
-│   └── src/
-│       ├── nodes/
-│       │   ├── BaseNode.js          # Core node abstraction
-│       │   ├── BaseNode.css         # Universal node styling
-│       │   ├── nodeFactory.js       # Helper utilities
-│       │   ├── nodeTypes.js         # Node registry
-│       │   ├── inputNode.js         # Input node
-│       │   ├── outputNode.js        # Output node
-│       │   ├── llmNode.js           # LLM node
-│       │   ├── textNode.js          # Enhanced text node
-│       │   ├── MathNode.js          # Math operations
-│       │   ├── APINode.js           # HTTP requests
-│       │   ├── LoggerNode.js        # Console logging
-│       │   ├── ConditionNode.js     # Conditional logic
-│       │   └── DelayNode.js         # Time delays
-│       ├── submit.js                # Pipeline submission
-│       ├── index.css                # Global styles
-│       ├── App.js                   # Main application
-│       └── index.js                 # Entry point
-├── backend/
-│   └── main.py                      # FastAPI backend
-├── README.md
-└── .gitignore
+
+
 
